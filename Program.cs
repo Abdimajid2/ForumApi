@@ -32,7 +32,7 @@ namespace ForumApi
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
+          
 
             app.MapControllers();
 

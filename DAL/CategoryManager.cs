@@ -11,6 +11,7 @@ namespace ForumApi.DAL
             _dbContext = dbContext;
         }
 
+        //denna metod ska hämta kategori från db
         public async Task<List<Models.Category>> GetCategories()
         {
             return await _dbContext.Category.ToListAsync();
